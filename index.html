@@ -5,28 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css"/>
+    
 </head>
-<body>
+<body class="page">
     <!--Шапка сайта-->
     <header>
         <nav>
-            <a href="/">Web Studio</a>
-            <ul>
-                <li><a href="">Studio</a></li>
-                <li><a href="">Portfolio</a></li>
-                <li><a href="">Contacts</a></li>
+            <a href="index.html">
+                <span class="logo-accent">Web</span>
+                <span class="logo">Studio</span>
+            </a>
+            <ul class="site-nav list">
+                <li><a href="" class="link">Studio</a></li>
+                <li><a href="./portfolio.html" class="link">Portfolio</a></li>
+                <li><a href="" class="link">Contacts</a></li>
             </ul>
         </nav>
-            <ul>
-                <li><a href="">info@devstudio.com</a></li>
-                <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+            <ul class="auth-nav list">
+                <li><a href="" class="link">info@devstudio.com</a></li>
+                <li><a href="tel:+110001111111" class="link">+11 (000) 111-11-11</a></li>
             </ul>
     </header>
     <!--Герой-->
     <main>
         <section>
-            <h1>Effective Solutions <br> for Your Business</h1>
-            <button type="button">Order Service</button>
+            <h1 class="heading">Effective Solutions for Your Business</h1>
+            <button class="button" type="button">Order Service</button>
         </section>
             <!--Наші переваги-->
         <section>
@@ -53,7 +61,7 @@
         </section>
         <!--Що ми робимо-->
         <section>
-            <h2>What are we doing</h2>
+            <h2 class="second-heading">What are we doing</h2>
             <ul>
                 <li>
                     <a href=""><img src="./img/rectangle_1.jpg" alt="web site" width="360"></a>
@@ -69,26 +77,26 @@
         </section>
         <!--Наша команда-->
         <section>
-            <h2>Our Team</h2>
+            <h2 class="second-heading">Our Team</h2>
             <ul>
                 <li>
                     <img src="./img/teamcard_1.jpg" alt="Mark Guerrero Product Designer" width="264">
-                    <h3>Mark Guerrero</h3>
+                    <h3 class="third-heading">Mark Guerrero</h3>
                     <p>Product Designer</p>
                 </li>
                 <li>
                     <img src="./img/teamcard_2.jpg" alt="Tom Ford Frontend Developer" width="264">
-                    <h3>Tom Ford</h3>
+                    <h3 class="third-heading">Tom Ford</h3>
                     <p>Frontend Developer</p>
                 </li>
                 <li>
                     <img src="./img/teamcard_3.jpg" alt="Camila Garcia Marketing" width="264">
-                    <h3>Camila Garcia</h3>
+                    <h3 class="third-heading">Camila Garcia</h3>
                     <p>Marketing</p>
                 </li>
                 <li>
                     <img src="./img/teamcard_4.jpg" alt="Daniel Wilson UI Designer" width="264">
-                    <h3>Daniel Wilson</h3>
+                    <h3 class="third-heading">Daniel Wilson</h3>
                     <p>UI Designer</p>
                 </li>
             </ul>
@@ -96,7 +104,10 @@
     </main>
     <!--Футер-->
     <footer>
-        <a href="/">WebStudio</a>
+        <a href="index.html">
+            <span class="logo-futer-accent">Web</span>
+            <span class="logo-futer">Studio</span>
+        </a>
         <p>Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
     </footer>
 </body>
