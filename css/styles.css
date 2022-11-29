@@ -83,11 +83,6 @@ font-weight: 600;
 
 .hero {
     background-color: var(--title-text-color);
-    position: absolute;
-    width: 1440px;
-    height: 603px;
-    left: 0px;
-    top: 72px;
 }
 
 /* Button */
