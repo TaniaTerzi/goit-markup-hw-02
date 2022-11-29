@@ -22,14 +22,14 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.header-none{
+.header-none {
     visibility: hidden;
     }
 
 ul{
     list-style: none;
 }
-.logo-accent{
+.logo-accent {
     color: var(--accent-color);
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
@@ -44,7 +44,7 @@ ul{
     line-height: 1.33;
 }
 
-.list, .link{
+.list, .link {
     text-decoration: none;
     }
 
@@ -65,7 +65,7 @@ font-weight: 600;
 
 /* Button */
 
-.button{
+.button {
 background: #F4F4FD;
 width: 106px;
 font-family: 'Roboto';
@@ -79,7 +79,7 @@ letter-spacing: 0.04em;
 color: var(--accent-color);
 }
 
-.button:hover, button:focus{
+.button:hover, button:focus {
     cursor: pointer;
     color: var(--primery-white-color);
     background: var(--accent-color);
@@ -89,18 +89,18 @@ color: var(--accent-color);
 /* text body */
 
 
-.heading{
+.heading {
     font-weight: 600;
     font-size: 56px;
     line-height: 1.07;
 }
-.second-heading{
+.second-heading {
     font-weight: 600;
     font-size: 36px;
     line-height: 1.1;
 }
 
-.third-heading{
+.third-heading {
     font-weight: 600;
     font-size: 20px;
     line-height: 1.2;  
@@ -108,18 +108,16 @@ color: var(--accent-color);
 
 /* futer */
 
-.logo-futer{
+.logo-futer {
     color: var(--title-text-color);
     font-weight: 800;
     font-size: 18px;    
     line-height: 1.17;
 }
-.logo-futer-accent{
+.logo-futer-accent {
     color: var(--accent-color);
     font-weight: 800;
     font-size: 18px;    
     line-height: 1.17;
 }
-
-
     
