@@ -5,14 +5,14 @@
 /* білий #FFFFFF */
 /* backgraund #E5E5E5 */
 
-:root{
+:root {
     --primery-text-color: #434455;
     --title-text-color: #2E2F42;
     --accent-color: #4D5AE5;
     --primery-white-color: #FFFFFF;
 }
 
-body{
+body {
     background-color: var(--primery-white-color);
     color: var(--primery-text-color);
     font-family: 'Roboto', 'Raleway', 'Montserrat', sans-serif;
@@ -32,7 +32,7 @@ body{
     letter-spacing: 0.03em;
 }
 
-.logo{
+.logo {
     color: var(--title-text-color);
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
@@ -155,7 +155,6 @@ color: var(--accent-color);
 }
 
 .team-card {
-    laptop-presenting-something.jpg);
 mix-blend-mode: normal;
 flex: none;
 order: 0;
