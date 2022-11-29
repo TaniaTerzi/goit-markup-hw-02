@@ -49,9 +49,10 @@ ul{
     }
 
 /* site-nav */
-.site-nav{
+.site-nav {
 font-weight: 600;
 }
+
 
 .site-nav
 .link:hover, .site-nav .link-focus {
