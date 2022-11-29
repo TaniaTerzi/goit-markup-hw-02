@@ -78,7 +78,7 @@ font-weight: 600;
 }
 
 .auth-nav .link:hover, .auth-nav .link:focus {
-    color: var(--primery-text-color);
+    color: var(--accent-color);
 }
 
 .hero {
@@ -141,25 +141,17 @@ color: var(--accent-color);
 
 .team {
     background-color: #F4F4FD;
-    position: absolute;
-    width: 1440px;
-    height: 732px;
-    left: 0px;
-    top: 1551px;
 }
 
 .team-card {
-mix-blend-mode: normal;
-flex: none;
-order: 0;
-flex-grow: 0;
+background-color: var(--primery-white-color);
     
 }
 
 /* futer */
 
 .logo-futer {
-    color: var(--title-text-color);
+    color: var(--primery-white-color);
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;    
@@ -175,4 +167,12 @@ flex-grow: 0;
     line-height: 1.17;
     text-transform: uppercase;
     letter-spacing: 0.03em;
+}
+
+.futer {
+    background-color: var(--title-text-color);
+}
+
+.futer-text {
+    color: var(--primery-white-color);
 }
