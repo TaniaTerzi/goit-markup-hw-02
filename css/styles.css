@@ -12,58 +12,82 @@
     --primery-white-color: #FFFFFF;
 }
 
-
-.page{
-    background-color: #E5E5E5;
-    color: #434455;
-    font-family: 'Montserrat', 'Roboto', sans-serif;
+body{
+    background-color: var(--primery-white-color);
+    color: var(--primery-text-color);
+    font-family: Raleway, sans-serif;
+    font-family: 'Roboto', 'Raleway', 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
+.header-none{
+    visibility: hidden;
+    }
 
 ul{
     list-style: none;
 }
 .logo-accent{
-    color: #4D5AE5;
+    color: var(--accent-color);
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
 }
 .logo{
     color: var(--title-text-color);
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;    
     line-height: 1.33;
 }
 
-/* site-nav */
+.list, .link{
+    text-decoration: none;
+    }
 
-.site-nav a {
-    color: var(--title-text-color);
-}
-.site-nav .link:hover, .site-nav.focus {
-    color: var(--accent-color);
-}
-.auth-nav a {
-    color: var(--primery-text-color);
-}   
-.auth-nav .link:hover, .link:focus {
-    color: var(--accent-color);
+/* site-nav */
+.site-nav{
+font-weight: 600;
 }
 
 .site-nav
+.link:hover, .site-nav .link-focus {
+    color: var(--primery-text-color);
+    }
+
+.auth-nav
 .link:hover, .link:focus {
-    color: var(--accent-color);
+    color: var(--primery-text-color);
 }
+
+/* Button */
+
 .button{
-    cursor: pointer;
+background: #F4F4FD;
+width: 106px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 1.19;
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+color: var(--accent-color);
 }
 
 .button:hover, button:focus{
-    color: var(--accent-color);
+    cursor: pointer;
+    color: var(--primery-white-color);
+    background: var(--accent-color);
+    
 }
+
+/* text body */
+
 
 .heading{
     font-weight: 600;
@@ -81,6 +105,9 @@ ul{
     font-size: 20px;
     line-height: 1.2;  
 }
+
+/* futer */
+
 .logo-futer{
     color: var(--title-text-color);
     font-weight: 800;
@@ -88,7 +115,7 @@ ul{
     line-height: 1.17;
 }
 .logo-futer-accent{
-    color: #4D5AE5;
+    color: var(--accent-color);
     font-weight: 800;
     font-size: 18px;    
     line-height: 1.17;
