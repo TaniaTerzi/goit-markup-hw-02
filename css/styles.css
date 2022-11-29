@@ -123,7 +123,6 @@ color: var(--accent-color);
 
 /* text body */
 
-
 .heading {
     font-weight: 600;
     font-size: 56px;
@@ -183,4 +182,3 @@ flex-grow: 0;
     text-transform: uppercase;
     letter-spacing: 0.03em;
 }
-    
